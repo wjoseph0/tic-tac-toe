@@ -1,0 +1,22 @@
+#game-board {
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: none;
+  border: solid black 1px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid black 1px;
+}
+
+.cell-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+}
