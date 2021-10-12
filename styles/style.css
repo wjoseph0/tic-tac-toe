@@ -2,6 +2,7 @@
   height: 500px;
   width: 500px;
   margin: 0 auto;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -19,4 +20,29 @@
 .cell-text {
   font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
+}
+
+#button-holder {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#reset-button {
+  width: 450px;
+  height: 50px;
+}
+
+#victory-banner {
+  height: auto;
+  width: 90vw;
+  text-align: center;
+  font-size: 100px;
+  position: absolute;
+  top: 100px;
+  left: 5vw;
+  background-color: green;
 }
